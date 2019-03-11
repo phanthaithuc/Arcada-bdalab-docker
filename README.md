@@ -1,9 +1,8 @@
 # Install Docker for Ubuntu, Linux system  
-
+   For Mac OS and Windows system. Download Docker at [MacOS](https://hub.docker.com/editions/community/docker-ce-desktop-mac), [Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 ## Update apt-get 
 
     $ sudo apt-get update 
-
 
 ## Completely Uninstall old version
 
@@ -69,7 +68,6 @@
         
 3. Save file and exit
 
- 
 4. Reload Docker Deamon: 
  
         $ sudo systemctl daemon-reload
