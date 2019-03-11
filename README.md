@@ -1,4 +1,4 @@
-# INSTALL DOCKER FOR ARCADA BDALAB  
+# Install Docker for Ubuntu, Linux system  
 
 ## Update apt-get 
 
@@ -10,6 +10,8 @@
     $ dpkg -l | grep -i docker
 
     $ sudo apt-get purge docker-ce
+    
+    $ sudo apt-get purge docker-ce-cli
 
     $ sudo rm -rf /var/lib/docker
 
@@ -42,7 +44,7 @@
     $ sudo docker run hello-world
 
 
-## Custom Proxy for Arcada-Docker
+## Custom Proxy file for Arcada BDA-lab only
 
  Working for any PC connect to internet via a proxy server. 
 
@@ -81,7 +83,7 @@
         $ sudo docker pull hello-world
 
 
-## Using Docker image from Kaggle 
+## Using Kaggle Docker image for Data Scientist
 ## [Kaggle Kernels](https://www.kaggle.com/kernels) allow users to run a Python Notebook in the cloud against our competitions and datasets without having to download data or set up their environment.
 
 This repository includes our Dockerfiles for building the [CPU-only](Dockerfile) and [GPU](gpu.Dockerfile) image that runs Python Kernels on Kaggle. 
